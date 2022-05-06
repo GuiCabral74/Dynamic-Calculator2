@@ -1,10 +1,11 @@
+import Calculator from "../components/calculator";
 import { GlobalStyle } from "../styles/globalStyle";
 
 export default function Home() {
   return (
     <div>
       <GlobalStyle />
-      <h1>Ola Next</h1>
+      <Calculator />
     </div>
   )
 }
